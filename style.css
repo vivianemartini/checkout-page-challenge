@@ -19,4 +19,272 @@
     --gray-dark: #828282;
 
     --white: #FFFFFF;
+    --black: #333333;
+}
+
+header h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color:var(--title);
+
+    margin-top: 64px;
+    margin-left: 240px;
+}
+.left-box {
+    margin-left: 239px;
+    margin-top: 22px;
+    width: 470px;
+}
+
+.contact {
+    margin-top: 15px;
+}
+
+.contact-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--subtitle);
+}
+
+.contact-label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--label);
+    margin-bottom: 10px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    border: 1px solid var(--gray-dark);
+    border-radius: 12px;
+    width: 465px;
+    height: 56px;
+    box-sizing: border-box;
+
+}
+
+.input-box-small {
+    margin-bottom: 15px;
+    border: 1px solid var(--gray-dark);
+    border-radius: 12px;
+    width: 217px;
+    height: 56px;
+    box-sizing: border-box;
+}
+
+.input-box input {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    width: 400px;
+}
+
+::placeholder {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--gray-dark);   
+}
+
+
+.input-box-small input {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+
+.address-box {
+    margin-top: 20px;
+}
+
+.address {
+    margin-top: 15px;
+}
+
+label i {
+    color: var(--gray-dark);
+    margin-top: 17px;
+    margin-left: 15px;
+}
+
+.small-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkbox-box {
+    display: flex;
+}
+
+.checkbox-box input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border: 1px solid var(--placeholder);
+    border-radius: 4px;
+}
+
+.checkbox-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--label);
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+button {
+    width: 166px;
+    height: 54px;
+    background: var(--orange); 
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 303px;
+}
+
+button:hover {
+    color: var(--gray-light);
+}
+
+.product {
+    float: right;
+    margin-top: -755px;
+    margin-right: 100px;
+    width: 383px;
+    height: 535px;
+    background: var(--gray);
+    border-radius: 12px;
+    position: relative;
+}
+
+.product-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--subtitle);
+}
+
+.product-number-sale {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: line-through;
+    color: var(--title);
+}
+
+.orange-number {
+    color: var(--orange);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.product-number-total {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: var(--subtitle);
+}
+
+.product-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+img {
+    width: 40%;
+    border-radius: 13px;
+}
+
+.product-info {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    width: 160px;
+}
+
+.quantity {
+    border: 1px solid var(--gray-dark);
+    border-radius: 12px;
+    width: 130px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#counting, #count {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--subtitle);
+}
+
+.btn-value {
+    width: 24px;
+    height: 24px;
+    background: var(--gray-light);
+    border-radius: 4px;
+    border: none;
+}
+
+.shipping-box {
+    margin-top: 70px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.shipping-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid #BDBDBD;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    color: var(--orange)
 }
