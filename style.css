@@ -288,3 +288,14 @@ footer {
 .footer a:hover {
     color: var(--orange)
 }
+
+select#country {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: -23px;
+    left: 180px;
+    background: var(--gray-light);
+    border-radius: 4px;
+    border: none;
+}
