@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{https://vivianemartini.github.io/checkout-page-challenge/}">
       Solution
     </a>
     <span> | </span>
@@ -37,8 +37,6 @@
 ## Overview
 
 ![screenshot](./img/chekout-page.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
 [here]()
