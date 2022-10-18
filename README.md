@@ -71,5 +71,5 @@ $ npm start
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/vivianemartini})
-- Twitter [@your-twitter](https://{twitter.com/coffeeeandcode})
+- GitHub [@vivianemartini](https://{github.com/vivianemartini})
+- Twitter [@coffeeandcode](https://{twitter.com/coffeeeandcode})
