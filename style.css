@@ -41,7 +41,7 @@ header h1 {
     margin-top: 15px;
 }
 
-.contact-title{
+.contact-title {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -298,4 +298,62 @@ select#country {
     background: var(--gray-light);
     border-radius: 4px;
     border: none;
+}
+
+@media (min-width: 1500px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media (max-width:1200px) {
+    main {
+      width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        margin-left: 40px;
+    }
+   .left-box {
+    width: 420px;
+    position: absolute;
+    right: 30px;
+    margin-top: 640px;
+   }
+   .input-box  {
+    width: 400px;
+   }
+   .input-box input {
+    width: 200px;
+   }
+   .input-box-small {
+    width: 200px;
+   }
+   .input-box-small input {
+    width: 121px;
+   }
+
+   select#country {
+    left: 0px;
+    top: 0px;
+   }
+   form-control {
+    background: red;
+   }
+   button {
+    margin-left: 230px;
+    margin-top: 20px;
+   }
+   .product {
+    top: 790px;
+    left: 60px;
+    width: 420px;
+    height: 560px;
+   }
+
+   footer {
+    margin-top: 1480px;
+   }
 }
